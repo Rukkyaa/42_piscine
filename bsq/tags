@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(NAME)	Makefile	/^$(NAME): ${OBJS}$/;"	t
+.c.o	Makefile	/^.c.o :$/;"	t
+FT_H	includes/ft.h	/^# define FT_H$/;"	d
+INCLUDE	Makefile	/^INCLUDE = includes\/$/;"	m
+NAME	Makefile	/^NAME = bsq$/;"	m
+OBJS	Makefile	/^OBJS = ${SRC:.c=.o}$/;"	m
+SRC	Makefile	/^SRC = main.c \\$/;"	m
+all	Makefile	/^all: ${NAME}$/;"	t
+clean	Makefile	/^clean:$/;"	t
+convert_map	parsing/convert_map.c	/^int	**convert_map(char **map, char *charset, int *lim)$/;"	f	typeref:typename:int **
+fclean	Makefile	/^fclean: clean$/;"	t
+fd_to_string	parsing/ft_standard.c	/^char	*fd_to_string(void)$/;"	f	typeref:typename:char *
+free_split	main.c	/^void	free_split(char **split)$/;"	f	typeref:typename:void
+ft_atoulli	srcs/ft_tools.c	/^unsigned long long int	ft_atoulli(char *str)$/;"	f	typeref:typename:unsigned long long int
+ft_display_sol	srcs/ft_solve.c	/^void	ft_display_sol(char **map, int x, int y, int size)$/;"	f	typeref:typename:void
+ft_error	srcs/ft_error.c	/^int	ft_error(void)$/;"	f	typeref:typename:int
+ft_get_params	srcs/ft_tools.c	/^char	*ft_get_params(char *str)$/;"	f	typeref:typename:char *
+ft_in_charset	srcs/ft_valid.c	/^int	ft_in_charset(char chr, char *charset)$/;"	f	typeref:typename:int
+ft_lines_len	srcs/ft_valid.c	/^int	ft_lines_len(char **map)$/;"	f	typeref:typename:int
+ft_min	srcs/ft_tools.c	/^int	ft_min(int nb1, int nb2, int nb3)$/;"	f	typeref:typename:int
+ft_putchar	srcs/ft_tools.c	/^void	ft_putchar(char chr)$/;"	f	typeref:typename:void
+ft_solve	srcs/ft_solve.c	/^int	ft_solve(int *x, int *y, char **map, int *max)$/;"	f	typeref:typename:int
+ft_split	parsing/ft_split.c	/^char	**ft_split(char *str, char *charset)$/;"	f	typeref:typename:char **
+ft_str_in_charset	srcs/ft_valid.c	/^int	ft_str_in_charset(char *str, char *charset)$/;"	f	typeref:typename:int
+ft_strdup	parsing/ft_split.c	/^char	*ft_strdup(char *str, char *charset)$/;"	f	typeref:typename:char *
+ft_strduprow	parsing/convert_map.c	/^int	*ft_strduprow(char *src)$/;"	f	typeref:typename:int *
+ft_strlen	basic/ft_strlen.c	/^int	ft_strlen(char *str)$/;"	f	typeref:typename:int
+ft_tendup	srcs/ft_tools.c	/^char	*ft_tendup(char *str, int size)$/;"	f	typeref:typename:char *
+ft_valid	srcs/ft_valid.c	/^int	ft_valid(char **map)$/;"	f	typeref:typename:int
+ft_valid_charset	srcs/ft_valid.c	/^int	ft_valid_charset(char *charset)$/;"	f	typeref:typename:int
+get_map_nbrows	parsing/convert_map.c	/^int	get_map_nbrows(char **map)$/;"	f	typeref:typename:int
+get_number_words	parsing/ft_split.c	/^unsigned int	get_number_words(char *str, char *charset)$/;"	f	typeref:typename:unsigned int
+get_update_max	srcs/ft_solve.c	/^int	get_update_max(int i, int j, int *pmax, int **imap)$/;"	f	typeref:typename:int
+init_max	srcs/ft_init_solve.c	/^void	init_max(int *x, int *y, char **map, int *max)$/;"	f	typeref:typename:void
+is_charset	parsing/ft_split.c	/^unsigned int	is_charset(char letter, char *charset)$/;"	f	typeref:typename:unsigned int
+la_norminette	srcs/ft_solve.c	/^void	la_norminette(int *x, int *y, int i, int j)$/;"	f	typeref:typename:void
+main	main.c	/^int	main(int argc, char **argv)$/;"	f	typeref:typename:int
+map_to_string	parsing/map_to_string.c	/^char	*map_to_string(int fd)$/;"	f	typeref:typename:char *
+process_map	parsing/ft_file.c	/^char	**process_map(int fd)$/;"	f	typeref:typename:char **
+process_mapfd	parsing/ft_standard.c	/^char	**process_mapfd(char *string)$/;"	f	typeref:typename:char **
+re	Makefile	/^re: fclean all$/;"	t
+split_map	parsing/ft_file.c	/^int	split_map(int fd)$/;"	f	typeref:typename:int
+split_mapfd	parsing/ft_standard.c	/^int	split_mapfd(char *string)$/;"	f	typeref:typename:int
+strncat_modif	parsing/strncat_modif.c	/^char	*strncat_modif(int length, char *string, char *buffer)$/;"	f	typeref:typename:char *
